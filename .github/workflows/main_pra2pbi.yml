@@ -10,6 +10,10 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  AZURE_WEBAPP_NAME: 'PRA2PBI'
+  AZURE_WEBAPP_PACKAGE_PATH: ${{github.workspace}}/dist/*.zip
+
 jobs:
   build:
     runs-on: ubuntu-latest
