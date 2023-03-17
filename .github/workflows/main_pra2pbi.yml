@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'PRA2PBI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2F949948C7D4CEF97660AA963F52E3B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCC22C2261404070A606D014FE0CC45C }}
